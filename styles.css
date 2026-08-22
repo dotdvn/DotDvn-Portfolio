@@ -331,6 +331,21 @@ main {
     animation-delay: 0.5s;
 }
 
+.hero-heading span:nth-child(4) {
+    animation-delay: 0.65s;
+}
+
+.hero-heading .hero-subtitle {
+    font-family: var(--font-sans);
+    font-size: clamp(14px, 1.5vw, 24px);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent-blue);
+    margin-top: 20px;
+    -webkit-text-stroke: 0px;
+}
+
 
 .hero-heading .serif-italic {
     text-transform: none;
@@ -528,7 +543,6 @@ main {
 
 .marquee-content span {
     font-size: clamp(40px, 4vw, 72px);
-    /* 7xl */
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -684,7 +698,6 @@ main {
     color: rgba(235, 235, 232, 0.5);
 }
 
-/* Responsive adjustments */
 @media (max-width: 1024px) {
     .hero-section {
         grid-template-columns: 1fr;
